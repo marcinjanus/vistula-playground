@@ -4,6 +4,7 @@ public class AdultAgeProvider {
 
     public static int getAdultAge(String country){
 
+        //
         if (country.equals("")) {
             throw new RuntimeException("Pusty kraj!");
         }
